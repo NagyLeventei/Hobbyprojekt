@@ -6,29 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+
     <title>Saját Hobby</title>
 </head>
 
 <body>
-    <header class="">
-        <p class="text-center font-key fw-bold bg-dark text-light display-2">Doom</p>
-    </header>
-    <nav class="navbar navbar-expand-sm container bg-dark text-white ">
-        <div class="container mt-3 mb-3">
-            <div class="navbar-nav">
-                <div class="nav-item md-3">
-                    <a class="nav-link link-light" href="#Történet"> Történet </a>
-                </div>
-                <div class="nav-item md-3">
-                    <a class="nav-link link-light" href="#Játékok"> Játékok </a>
-                </div>
-                <div class="nav-item md-3">
-                    <a class="nav-link link-light" href="#Eladások"> Eladások </a>
-                </div>
-            </div>
-        </div>
-    </nav>
+    <section class="hero">
 
+        <video src="doometernallive.mp4" muted loop autoplay></video>
+
+        <nav>
+            <ul>
+                <li><a href="#Fő oldal">Fő oldal</a></li>
+                <li><a href="#Történet">Történet</a></li>
+                <li><a href="#Játékok">Játékok</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <h1>DOOM</h1>
+            <a href="#Történet">Több</a>
+    </section>
+    </div>
     <main class="container">
         <div class="container row bg-white rounded" id="Történet">
             <div class="cols-12 col-md-8">
@@ -61,7 +62,9 @@
             </div>
             <div class="cols-12 col-md-4">
                 <div class="p-3">
-                    <img src="img/duneii.jpg" class="imf-fluid">
+                    <a href="https://www.youtube.com/watch?v=5Nz3HXwEG4M"><img src="hivatkozaskep.png"title="1# OST MUSIC"
+                            class="img-fluid rounded-3 " style="margin-top:100px;"></a>
+                            <a href="#" class="btn btn-warning mt-2" style="width: 100%;">Vissza a fő oldalra</a>
                 </div>
             </div>
         </div>
@@ -70,7 +73,7 @@
     <section class="container" id="Játékok">
         <div class="row">
             <div class="col-md-4 col-12 mt-4">
-                <div class="card">
+                <div class="card text-bg-dark mb-3 p-2">
                     <img src="Doom-1993-Box-Art.png" class="card-img-top" alt="Doom-1993-Box-Art logo">
                     <div>
                         <h5 class="card-title">DOOM (1993)</h5>
@@ -79,8 +82,10 @@
                             <li>ikonikus első személyű lövöldözős videojáték.</li>
                             <li>Meghatározta az FPS (first-person shooter) műfajt.</li>
                             <li>Mai napig kultikus státusza van a videojáték-iparban.</li>
-                            <li>A játékot először DOS rendszerekre tervezték, és később számos más platformra is portolták, például Windows, Mac, és konzolokra is.</li>
-                            <li>forradalmi volt a 3D-s grafika és a dinamikus multiplayer mód megvalósítása szempontjából.</li>
+                            <li>A játékot először DOS rendszerekre tervezték, és később számos más platformra is
+                                portolták, például Windows, Mac, és konzolokra is.</li>
+                            <li>forradalmi volt a 3D-s grafika és a dinamikus multiplayer mód megvalósítása
+                                szempontjából.</li>
                         </ul>
                         </p>
                         <a href="https://en.wikipedia.org/wiki/Doom_(1993_video_game)" class="btn btn-danger"
@@ -89,7 +94,7 @@
                 </div>
             </div>
             <div class="col-md-4 col-12 mt-4">
-                <div class="card">
+                <div class="card text-bg-dark mb-3 p-2">
                     <img src="doomII.png" class="card-img-top" alt="Doom II: Hell on Earth logo">
                     <div>
                         <h5 class="card-title">Doom II: Hell on Earth (1994)</h5>
@@ -97,24 +102,26 @@
                         <ul>
                             <li>A folytatás ugyanazt az első személyű lövöldözős stílust követi.</li>
                             <li>A DOOM II több új fegyvert, ellenséget és pályát tartalmaz.</li>
-                            <li>Ebben a részben először jelent meg a szuper-shotgun, amely hatalmas sebzést képes okozni rövid távolságból.</li>
+                            <li>Ebben a részben először jelent meg a szuper-shotgun, amely hatalmas sebzést képes okozni
+                                rövid távolságból.</li>
                             <li>játékosok számára további intenzív FPS élményt nyújt.</li>
                         </ul>
                         </p>
-                        <a href="https://en.wikipedia.org/wiki/Doom_II" class="btn btn-danger"
-                            target="_blank">További információ</a>
+                        <a href="https://en.wikipedia.org/wiki/Doom_II" class="btn btn-danger" target="_blank">További
+                            információ</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-12 mt-4 ">
-                <div class="card">
-                    <img src="Ranked-Final-Doom-Plutonia-Experiment.avif" class="card-img-top" alt="final doom logo">
+            <div class="col-md-4 col-12 mt-4">
+                <div class="card text-bg-dark mb-3 p-2">
+                    <img src="finaldoomlogo.jpg" class="card-img-top" alt="final doom logo">
                     <div>
                         <h5 class="card-title">Final Doom (1996)</h5>
                         <p class="card-text">
                         <ul>
                             <li>A Final Doom egy kiegészítő csomag a DOOM II: Hell on Earth játékhoz.</li>
-                            <li>Ez a kiegészítő csomag két új epizódot tartalmaz: "TNT: Evilution" és "The Plutonia Experiment".</li>
+                            <li>Ez a kiegészítő csomag két új epizódot tartalmaz: "TNT: Evilution" és "The Plutonia
+                                Experiment".</li>
                             <li>A "TNT: Evilution" epizód új pályákat és kihívásokat kínál a játékosoknak.</li>
                             <li>A Final Doom továbbfejlesztette a DOOM II játékmenetét és kihívásait.</li>
                             <li>Ez a kiegészítő csomag tovább növelte a DOOM sorozat népszerűségét.</li>
@@ -124,87 +131,264 @@
                             target="_blank">További információ</a>
                     </div>
                 </div>
+                <a href="#" class="btn btn-secondary mt-2" style="width: 100%;">Vissza a fő oldalra</a>
             </div>
         </div>
         </div>
     </section>
-</div>
-</div>
-</main>
-<section class="container" id="Játékok">
-<div class="row">
-    <div class="col-md-4 col-12 mt-4">
-        <div class="card">
-            <img src="doom64.png" class="card-img-top" alt="doom 64 logo">
-            <div>
-                <h5 class="card-title">Doom 64 (1997)</h5>
-                <p class="card-text">
-                <ul>
-                    <li>A Doom 64 a híres Doom sorozat egyik része, amely a Nintendo 64 konzolra jelent meg 1997-ben.</li>
-                    <li>Ez a játék nem szimpla port volt, hanem egy újraalkotott változat, amely új pályákat, grafikákat és hangokat tartalmazott.</li>
-                    <li>A Doom 64 továbbfejlesztette a sorozat ikonikus lövöldözős mechanikáját és a démonok elleni harcot.</li>
-                    <li>A játékot pozitívan fogadták a rajongók és a kritikusok is.</li>
-                </ul>
-                </p>
-                <a href="https://en.wikipedia.org/wiki/Doom_64" class="btn btn-danger"
-                    target="_blank">További információ</a>
-            </div>
-        </div>
     </div>
-    <div class="col-md-4 col-12 mt-4">
-        <div class="card">
-            <img src="Doom3_logo.png" class="card-img-top" alt="doom 3 logo">
-            <div>
-                <h5 class="card-title">Doom 3 (2004)</h5>
-                <p class="card-text">
-                <ul>
-                    <li>Ez a rész jelentős változást hozott a sorozatban, mivel a fejlesztők a játékmenetet és a grafikát teljesen átdolgozták.</li>
-                    <li>A játék sötét és félelmetes atmoszférája, valamint a részletgazdag grafika és a széleskörű fegyverválaszték új megközelítést hozott a sorozathoz.</li>
-                    <li>A Doom 3 pozitív fogadtatásban részesült, és sok rajongó és kritikus számára is emlékezetes maradt a játék</li>
-                </ul>
-                </p>
-                <a href="https://en.wikipedia.org/wiki/Doom_3" class="btn btn-warning"
-                    target="_blank">További információ</a>
-            </div>
-        </div>
     </div>
-    <div class="col-md-4 col-12 mt-4">
-        <div class="card">
-            <img src="doom2016logo.png" class="card-img-top" alt="doom 2016 logo">
-                <div>
-                    <h5 class="card-title">Doom (2016)</h5>
+    </main>
+    <section class="container" id="Játékok">
+        <div class="row">
+            <div class="col-md-4 col-12 mt-4">
+                <div class="card text-bg-dark mb-3 p-2">
+                    <img src="doom64.png" class="card-img-top" alt="doom 64 logo">
+                    <div>
+                        <h5 class="card-title">Doom 64 (1997)</h5>
                         <p class="card-text">
-                            <ul>
-                                <li>A Doom (2016) egy újraalkotott változata az eredeti Doom sorozatnak.</li>
-                                <li>A játék visszatért a gyors és akciódús lövöldözéshez, amely a sorozatot híressé tette, és modernizált grafikával és játékmenettel rendelkezett.</li>
-                                <li>A történet az űrkutatási bázison játszódik, ahol a játékosnak szembeszállnia kell a démonok seregével, miközben megpróbálja megállítani őket, hogy megszerezze az emberiség elleni támadásokat.</li>
-                                <li>A Doom (2016) pozitív visszajelzéseket kapott a rajongóktól és a kritikusoktól egyaránt.</li>
-                            </ul>
+                        <ul>
+                            <li>A Doom 64 a híres Doom sorozat egyik része, amely a Nintendo 64 konzolra jelent meg
+                                1997-ben.</li>
+                            <li>Ez a játék nem szimpla port volt, hanem egy újraalkotott változat, amely új pályákat,
+                                grafikákat és hangokat tartalmazott.</li>
+                            <li>A Doom 64 továbbfejlesztette a sorozat ikonikus lövöldözős mechanikáját és a démonok
+                                elleni harcot.</li>
+                            <li>A játékot pozitívan fogadták a rajongók és a kritikusok is.</li>
+                        </ul>
                         </p>
-                            <a href="https://en.wikipedia.org/wiki/Doom_(2016_video_game)" class="btn btn-danger"
-                                target="_blank">További információ</a>
+                        <a href="https://en.wikipedia.org/wiki/Doom_64" class="btn btn-danger" target="_blank">További
+                            információ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 mt-4">
+                <div class="card text-bg-dark mb-3 p-2">
+                    <img src="Doom3_logo.png" class="card-img-top" alt="doom 3 logo">
+                    <div>
+                        <h5 class="card-title">Doom 3 (2004)</h5>
+                        <p class="card-text">
+                        <ul>
+                            <li>Ez a rész jelentős változást hozott a sorozatban, mivel a fejlesztők a játékmenetet és a
+                                grafikát teljesen átdolgozták.</li>
+                            <li>A játék sötét és félelmetes atmoszférája, valamint a részletgazdag grafika és a
+                                széleskörű fegyverválaszték új megközelítést hozott a sorozathoz.</li>
+                            <li>A Doom 3 pozitív fogadtatásban részesült, és sok rajongó és kritikus számára is
+                                emlékezetes maradt a játék</li>
+                        </ul>
+                        </p>
+                        <a href="https://en.wikipedia.org/wiki/Doom_3" class="btn btn-danger" target="_blank">További
+                            információ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 mt-4">
+                <div class="card text-bg-dark mb-3 p-2">
+                    <img src="doom2016logo.png" class="card-img-top" alt="doom 2016 logo">
+                    <div>
+                        <h5 class="card-title">Doom (2016)</h5>
+                        <p class="card-text">
+                        <ul>
+                            <li>A Doom (2016) egy újraalkotott változata az eredeti Doom sorozatnak.</li>
+                            <li>A játék visszatért a gyors és akciódús lövöldözéshez, amely a sorozatot híressé tette,
+                                és modernizált grafikával és játékmenettel rendelkezett.</li>
+                            <li>A történet az űrkutatási bázison játszódik, ahol a játékosnak szembeszállnia kell a
+                                démonok seregével, miközben megpróbálja megállítani őket, hogy megszerezze az emberiség
+                                elleni támadásokat.</li>
+                            <li>A Doom (2016) pozitív visszajelzéseket kapott a rajongóktól és a kritikusoktól egyaránt.
+                            </li>
+                        </ul>
+                        </p>
+                        <a href="https://en.wikipedia.org/wiki/Doom_(2016_video_game)" class="btn btn-danger"
+                            target="_blank">További információ</a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="card bg-dark text-white">
-        <img src="DOOM_LargeHero_Announce.jpg" class="card-img" alt="doom eternal logo">
-        <div class="card-img-overlay">
-          <h5 class="card-title">Doom Eternal (2020)</h5>
-          <p class="card-text">
-                <ul>
-                    <li>A Doom Eternal egy 2020-ban megjelent first-person shooter játék, amelyet az id Software fejlesztett.</li>
-                    <li>A játék folytatja a Doom (2016) történetét, és a játékos ismét a Föld és más dimenziók között utazik, hogy szembeszálljon a démonok seregével.</li>
-                    <li>A játékmenet továbbfejlesztett és dinamikusabb, új fegyvereket és képességeket ad a játékosnak, hogy még intenzívebb és akciódús élményt nyújtson.</li>
-                    <li>A Doom Eternal pozitív fogadtatásban részesült a <span style="color: red; font-weight: bold;">rajongók és a kritikusok körében.</span></li>
-                </ul>
-          </p>
-            <a href="https://en.wikipedia.org/wiki/Doom_Eternal" class="btn btn-danger" target="_blank">További információ</a>
         </div>
-      </div>
-</section>
+        <div class="card bg-dark text-white">
+            <img src="DOOM_LargeHero_Announce.jpg" class="card-img" alt="doom eternal logo">
+            <div class="card-img-overlay">
+                <h5 class="card-title">Doom Eternal (2020)</h5>
+                <p class="card-text">
+                <ul>
+                    <li>A Doom Eternal egy 2020-ban megjelent first-person shooter játék, amelyet az id Software
+                        fejlesztett.</li>
+                    <li>A játék folytatja a Doom (2016) történetét, és a játékos ismét a Föld és más dimenziók között
+                        utazik, hogy szembeszálljon a démonok seregével.</li>
+                    <li>A játékmenet továbbfejlesztett és dinamikusabb, új fegyvereket és képességeket ad a játékosnak,
+                        hogy még intenzívebb és akciódús élményt nyújtson.</li>
+                    <li>A Doom Eternal pozitív fogadtatásban részesült a <span
+                            style="color: red; font-weight: bold;">rajongók és a kritikusok körében.</span></li>
+                </ul>
+                </p>
+                <a href="https://en.wikipedia.org/wiki/Doom_Eternal" class="btn btn-danger" target="_blank">További
+                    információ</a>
+            </div>
+        </div>
+    </section>
+    <!--Innentől van a háttér-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/88/three.min.js"></script>
+<script id="vertexShader" type="x-shader/x-vertex">
+  void main() {
+        gl_Position = vec4( position, 1.0 );
+    }
+</script>
+<script id="fragmentShader" type="x-shader/x-fragment">
+  uniform vec2 u_resolution;
+  uniform vec2 u_mouse;
+  uniform float u_time;
+  uniform sampler2D u_noise;
+  
+  #define PI 3.141592653589793
+  #define TAU 6.
+  
+  const float multiplier = 15.5;
+
+  const float zoomSpeed = 10.;
+  const int layers = 10;
+
+  const int octaves = 5;
+
+  vec2 hash2(vec2 p)
+  {
+    vec2 o = texture2D( u_noise, (p+0.5)/256.0, -100.0 ).xy;
+    return o;
+  }
+  
+  mat2 rotate2d(float _angle){
+      return mat2(cos(_angle),sin(_angle),
+                  -sin(_angle),cos(_angle));
+  }
+  
+  vec3 hsb2rgb( in vec3 c ){
+    vec3 rgb = clamp(abs(mod(c.x*6.0+vec3(0.0,4.0,2.0),
+                             6.0)-3.0)-1.0,
+                     0.0,
+                     1.0 );
+    rgb = rgb*rgb*(3.0-2.0*rgb);
+    return c.z * mix( vec3(1.0), rgb, c.y);
+  }
+  
+  float hash(vec2 p)
+  {
+    float o = texture2D( u_noise, (p+0.5)/256.0, -100.0 ).x;
+    return o;
+  }
+  float noise(vec2 uv) {
+    vec2 id = floor(uv);
+    vec2 subuv = fract(uv);
+    vec2 u = subuv * subuv * (3. - 2. * subuv);
+    float a = hash(id);
+    float b = hash(id + vec2(1., 0.));
+    float c = hash(id + vec2(0., 1.));
+    float d = hash(id + vec2(1., 1.));
+    return mix(mix(a, b, u.x), mix(c, d, u.x), u.y);
+  }
+  float fbm(in vec2 uv) {
+    float s = .0;
+    float m = .0;
+    float a = .5;
+    for(int i = 0; i < octaves; i++) {
+      s += a * noise(uv);
+      m += a;
+      a *= .5;
+      uv *= 2.;
+    }
+    return s / m;
+  }
+  
+  vec3 domain(vec2 z){
+    return vec3(hsb2rgb(vec3(atan(z.y,z.x)/TAU,1.,1.)));
+  }
+  vec3 colour(vec2 z) {
+      return domain(z);
+  }
+  
+  // The render function is where we render the pattern to be added to the layer
+  vec3 render(vec2 uv, float scale, vec3 colour) {
+    vec2 id = floor(uv);
+    vec2 subuv = fract(uv);
+    vec2 rand = hash2(id);
+    float bokeh = abs(scale) * 1.;
+    
+    float particle = 0.;
+    
+    if(length(rand) > 1.3) {
+      vec2 pos = subuv-.5;
+      float field = length(pos);
+      particle = smoothstep(.3, 0., field);
+      particle += smoothstep(.4 * bokeh, 0.34 * bokeh, field);
+    }
+    return vec3(particle*2.);
+  }
+  
+  vec3 renderLayer(int layer, int layers, vec2 uv, inout float opacity, vec3 colour, float n) {
+    vec2 _uv = uv;
+    // Scale
+    // Generating a scale value between zero and 1 based on a mod of u_time
+    // A frequency of 10 dixided by the layer index (10 / layers * layer)
+    float scale = mod((u_time + zoomSpeed / float(layers) * float(layer)) / zoomSpeed, -1.);
+    uv *= 20.; // The initial scale. Increasing this makes the cells smaller and the "speed" apepar faster
+    uv *= scale*scale; // then modifying the overall scale by the generated amount
+    // uv *= 1. + ( ( n*.5 ) * ( length(_uv) ) );
+    // uv += .5*float(layer);
+    uv = rotate2d(u_time / 10.) * uv; // rotarting
+    uv += vec2(25. + sin(u_time*.1)) * float(layer); // ofsetting the UV by an arbitrary amount to make the layer appear different
+
+    // render
+    vec3 pass = render(uv * multiplier, scale, colour) * .2; // render the pass
+
+     // this is the opacity of the layer fading in from the "bottom"
+    opacity = 1. + scale;
+    float _opacity = opacity;
+    
+    // pass += n * .5 * mix(vec3(0., .5, 1.5), vec3(1., .5, 0.), opacity);
+    
+    // This is the opacity of the layer fading out at the top (we want this minimal, hence the smoothstep)
+    float endOpacity = smoothstep(0., 0.4, scale * -1.);
+    opacity += endOpacity;
+
+    return pass * _opacity * endOpacity;
+  }
+
+  void main() {
+      vec2 uv = (gl_FragCoord.xy - 0.5 * u_resolution.xy);
+
+      if(u_resolution.y < u_resolution.x) {
+        uv /= u_resolution.y;
+      } else {
+        uv /= u_resolution.x;
+      }
+
+      // uv.y += cos(u_time * .1) * .5;
+      // uv.x += sin(u_time * .1) * .5;
+    
+      // float n = fbm(uv * 3. - 2.);
+      float n = fbm((uv + vec2(sin(u_time*.1), u_time*.1)) * 2. - 2.);
+
+      vec3 colour = vec3(0.);
+      // colour = n * mix(vec3(0., .5, 1.5), vec3(1., .5, -.1), n);
+      colour = n * mix(vec3(0., .5, 1.5)*-1.5, clamp(vec3(1., .5, .25)*2., 0., 1.), n);
+      // colour -= n*n*n*n*.4;
+      // colour += smoothstep(.8, 2.5, sin(n*n*n*8.))*.4;
+
+      float opacity = 1.;
+      float opacity_sum = 1.;
+
+      for(int i = 1; i <= layers; i++) {
+        colour -= renderLayer(i, layers, uv, opacity, colour, n);
+        opacity_sum += opacity;
+      }
+
+      colour /= opacity_sum;
+
+      gl_FragColor = vec4(clamp(colour * 20., 0., 1.),1.0);
+  }
+</script>
+
+<div id="container" touch-action="none"></div>
+<script src="hatter.js"></script>
 </body>
-<script src="script.js"></script>
 
 </html>
