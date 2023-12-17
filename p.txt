@@ -1,0 +1,7 @@
+<li><a class="dropdown-item" href="#DOOM (1993)">DOOM (1993)</a></li>
+                            <li><a class="dropdown-item" href="#DOOM II: Hell on Earth">DOOM II: Hell on Earth</a></li>
+                            <li><a class="dropdown-item" href="#Final Doom (1996)">Final Doom (1996)</a></li>
+                            <li><a class="dropdown-item" href="#Doom 64 (1997)">Doom 64 (1997)</a></li>
+                            <li><a class="dropdown-item" href="#Doom 3 (2004)">Doom 3 (2004)</a></li>
+                            <li><a class="dropdown-item" href="#DOOM (2016)">DOOM (2016)</a></li>
+                            <li><a class="dropdown-item" href="#DOOM Eternal (2020)">DOOM Eternal (2020)</a></li>
